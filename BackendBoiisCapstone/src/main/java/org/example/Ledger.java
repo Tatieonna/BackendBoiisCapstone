@@ -38,7 +38,8 @@ public class Ledger {  // My wrapper around an ArrayList of Transaction objects
                 transactions.add(transaction);
                 System.out.println(transaction);
             }
-        } catch (FileNotFoundException ex) {
+        }
+        catch (FileNotFoundException ex) {
             System.out.println("Uh oh - something went wrong! :( ");
 
         }
